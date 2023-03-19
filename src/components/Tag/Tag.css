@@ -1,0 +1,28 @@
+
+.tag-contaier {
+    width: 7.99vw;
+    background: #FF6060;
+    border-radius: 10px;
+}
+
+.tag--name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 142.6%;
+
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width:768px) {
+    .tag-contaier {
+        width: 25%;
+        border-radius: 5px;
+    }
+
+    .tag--name {
+        font-size: 10px;
+    }
+}

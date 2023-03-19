@@ -1,0 +1,55 @@
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px !important;
+}
+
+.tags-starts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px !important;
+} 
+
+.tags-container {
+    display: flex;
+    gap: 10px;
+    padding: 0;
+}
+
+.star-conaiter img{
+    width: 30px;
+}
+
+.dropdownopens {
+    display: flex;
+    gap: 76px;
+    margin-top: 26px !important;
+}
+
+.Dropdownopen--base-text li {
+    list-style-type: none;
+}
+
+@media only screen and (max-width:768px) {
+    .info {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px !important;
+    }
+
+    .dropdownopens {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .rate-host-container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .star-conaiter img{
+        width: 15px;
+    }
+}
