@@ -17,19 +17,19 @@
 
 .host-container {
     display: flex;
-    gap: 15px;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .host--title {
-    width: 6.458vw;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 142.6%;
     text-align: right;
-
     color: #FF6060;
+    margin: 0;
 }
 
 .host--img {
@@ -37,6 +37,7 @@
     height: 64px;
     border-radius: 50%;
     object-fit: cover;
+    margin-left: 15px;
 }
 
 
@@ -49,10 +50,5 @@
     .host--img{
         width: 32px;
         height: 32px;
-        margin: auto 0;
-    }
-
-    .host-container {
-        gap: 32px;
     }
 }

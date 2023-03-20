@@ -4,6 +4,10 @@
     margin-top: 30px !important;
 }
 
+.title-tags-container {
+    flex-grow: 0.75;
+}
+
 .tags-starts {
     display: flex;
     justify-content: space-between;
@@ -14,6 +18,7 @@
     display: flex;
     gap: 10px;
     padding: 0;
+    flex-wrap: wrap;
 }
 
 .star-conaiter img{

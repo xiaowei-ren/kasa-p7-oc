@@ -1,5 +1,9 @@
 .star-conaiter {
-    margin: auto 0;
+    margin: 15px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 10px;
 }
 
 .star-icon {
@@ -8,4 +12,10 @@
 
 .star-icon-gris {
     background: #E3E3E3;
+}
+
+@media screen and (max-width: 768px) {
+    .star-conaiter {
+        gap: 5px;
+    }
 }

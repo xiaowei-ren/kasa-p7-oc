@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, redirect, Route, Routes} from "react-router-dom";
+import { Route, Routes} from "react-router-dom";
 import Home from './pages/Home';
 import Propos from './pages/Propos';
 import Logement from './pages/Logement';

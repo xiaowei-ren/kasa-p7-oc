@@ -42,6 +42,7 @@
 .Dropdownopen--base {
     background: #F7F7F7;
     border-radius: 10px;
+    flex-grow: 1;
 }
 
 .Dropdownopen--base-text {

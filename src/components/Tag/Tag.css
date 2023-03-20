@@ -1,8 +1,12 @@
 
 .tag-contaier {
-    width: 7.99vw;
     background: #FF6060;
     border-radius: 10px;
+    width: 30%;
+    max-width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .tag--name {
@@ -18,7 +22,7 @@
 
 @media only screen and (max-width:768px) {
     .tag-contaier {
-        width: 25%;
+        width: 20%;
         border-radius: 5px;
     }
 

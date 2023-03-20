@@ -1,4 +1,5 @@
-.dropdowns {
+.dropdowns.container {
+    width: 75%;
     margin-top: 31px !important;
     display: flex;
     flex-direction: column;
@@ -6,8 +7,9 @@
 }
 
 @media only screen and (max-width:768px){
-    .dropdowns {
+    .dropdowns.container {
         margin-top: 19px !important;
         gap: 20px;
+        width: 88%;
     }
 }
