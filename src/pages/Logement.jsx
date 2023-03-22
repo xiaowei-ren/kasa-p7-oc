@@ -30,7 +30,7 @@ function Logement() {
                 if (!logementFound) return navigate("*");
             })
             .catch(error => console.error(error));
-    }, []);
+    }, [id, navigate]);
 
     return (
         <>

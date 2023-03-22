@@ -54,7 +54,7 @@
 @media only screen and (max-width:768px){
     .error--number {
         font-size: 96px;
-        margin-top: 198.71px !important;
+        margin-top: 30vh !important;
     }
 
     .error--text{
