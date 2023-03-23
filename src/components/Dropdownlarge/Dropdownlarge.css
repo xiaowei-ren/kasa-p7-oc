@@ -3,6 +3,9 @@
     display: flex;
     flex-direction: column;
 }
+.Dropdownlarge-container.small {
+    width: 50%;
+}
 
 .Dropdownlarge--top {
     display: flex;
@@ -11,6 +14,11 @@
     border-radius: 5px;
     width: 100%;
     height: 47px;
+    cursor: pointer;
+}
+
+.Dropdownlarge-container.small .Dropdownlarge--top {
+    border-radius: 10px;
 }
 
 .Dropdownlarge--top-title {
@@ -26,6 +34,10 @@
     align-items: center;
 
     color: #FFFFFF;
+}
+
+.Dropdownlarge-container.small .Dropdownlarge--top-title  {
+    font-size: 18px;
 }
 
 .Dropdownlarge--top-img {
@@ -45,6 +57,10 @@
     flex-grow: 1;
 }
 
+.Dropdownlarge-container.small .Dropdownlarge--base {
+    border-radius: 10px;
+}
+
 .Dropdownlarge--base-text {
     margin-top: 27px;
     font-family: 'Montserrat';
@@ -57,19 +73,35 @@
     color: #FF6060;
 }
 
+.Dropdownlarge-container.small .Dropdownlarge--base-text  {
+    font-size: 18px;
+}
+
 .Dropdownlarge--base.hidden {
     display: none;
 }
 
 /*Smartphone et tablette*/
 @media only screen and (max-width:768px) {
-    .Dropdownlarge--top-title{
+    .Dropdownlarge-container.small {
+        width: 100%;
+    }
+
+    .Dropdownlarge-container.small .Dropdownlarge--top,
+    .Dropdownlarge-container.small .Dropdownlarge--base {
+        border-radius: 5px;
+    }
+
+    .Dropdownlarge--top-title,
+    .Dropdownlarge-container.small .Dropdownlarge--top-title {
         font-size: 13px;
     }
 
-    .Dropdownlarge--base-text{
+    .Dropdownlarge--base-text,
+    .Dropdownlarge-container.small .Dropdownlarge--base-text {
         font-size: 12px;
         margin-top: 17px;
     }
+
 }
 

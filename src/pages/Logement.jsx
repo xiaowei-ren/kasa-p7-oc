@@ -6,7 +6,7 @@ import Title from '../components/Title/Title';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import '../style/Logement.css';
-import DropdownOpen from '../components/DropdownOpen/DropdownOpen';
+import Dropdownlarge from '../components/Dropdownlarge/Dropdownlarge'
 import { useNavigate } from "react-router-dom";
 
 function Logement() {
@@ -55,14 +55,16 @@ function Logement() {
                 </div>
             </div>
             <div className='dropdownopens container'>
-                <DropdownOpen
+                <Dropdownlarge
                     title={"Description"}
-                    description={data.description} />
-                <DropdownOpen
+                    text={data.description}
+                    small={true} />
+                <Dropdownlarge
                     title={"Équipements"}
-                    description={data.equipments ? data.equipments.map((equipment, index) => {
+                    text={data.equipments ? data.equipments.map((equipment, index) => {
                         return <li key={index}>{equipment}</li>
-                    }) : ''} />
+                    }) : ''}
+                    small={true} />
             </div>
         </>
     )
